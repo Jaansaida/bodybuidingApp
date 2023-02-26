@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background-image: url("C:\\Users\\jaansaida\\Documents\\bodybuidingApp\\pexels-anush-gorak-1229356.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+  }
+  
+  .container {
+	width: 100%;
+	max-width: 500px; /* Adjust the max-width to make the box wider */
+	margin: auto; /* Center the box */
+	margin-top: 70px; /* Add some margin to the top to space it out */
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
+	background-color: #b6c7a4;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #000000;
+	text-shadow: 1px 1px 1px #fff;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  label {
+	margin-bottom: 5px;
+	color: #191825;
+  }
+  
+  input[type="email"],
+  input[type="text"],
+  input[type="password"]{
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #333;
+	font-size: 16px;
+  }
+  
+  button[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color:whitesmoke;
+	color:rgb(155, 25, 25);
+	font-size: 15px;
+	cursor: pointer;
+  }
+  
+  .social-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+	margin: 0 10px;
+	color:#181823;
+	font-size: 24px;
+	text-decoration:rgb(187, 163, 163);
+  }
+  
+p {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #40513B;
+	padding-top: 10px;
+}
+
+a {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #B3005E;
+}
+  
